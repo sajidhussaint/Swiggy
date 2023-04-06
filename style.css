@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik";
+  letter-spacing: 0.5px;
+}
+
+.main {
+  height: 540px;
+  display: flex;
+}
+.container {
+  width: 57%;
+  padding: 60px;
+}
+.hed {
+  font-size: 40px;
+  padding-top: 80px;
+}
+
+.logo {
+  height: 56px;
+}
+
+.login,
+.signup {
+  position: relative;
+  left: 170px;
+  text-decoration: none;
+  height: 40px;
+  width: 111px;
+  cursor: pointer;
+}
+
+.login {
+  background-color: white;
+  border: none;
+}
+.login:hover {
+  color: #fc8019;
+  transition: 0.6s;
+}
+.signup {
+  background-color: black;
+  color: white;
+  border: none;
+}
+.signup:hover {
+  box-shadow: 2px 2px 10px grey;
+}
+
+.container,
+.part3-1 h1 {
+  font-size: 40px;
+  padding-top: 35px;
+  line-height: 40px;
+}
+
+.container h2 {
+  font-size: 20px;
+  line-height: 40px;
+  color: gray;
+  font-weight: 100;
+}
+
+.text-section {
+  margin-top: 40px;
+  width: 608px;
+  height: 58px;
+  padding-left: 25px;
+  font-size: 18px;
+  border: 1px solid #fc8019;
+}
+
+input::placeholder {
+  opacity: 0.5;
+  color: grey;
+  font-size: 18px;
+}
+
+.text-btn2 {
+  height: 59px;
+  width: 140px;
+  background-color: #fc8019;
+  color: white;
+  position: relative;
+  left: 469px;
+  bottom: 59px;
+  border: none;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 17px;
+}
+
+.text-section:focus {
+  outline: none;
+}
+
+.container h4 {
+  color: gray;
+  font-size: 15px;
+}
+.container p {
+  line-height: normal;
+  cursor: pointer;
+  font-size: 15px;
+  color: gray;
+}
+
+/* part2 */
+
+.part2 {
+  background-color: #2b1e16;
+  height: 403px;
+  width: 100%;
+  padding: 25px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 0px;
+}
+
+.card1,
+.card2,
+.card3 {
+  width: 300px;
+  height: 350px;
+  text-align: center;
+}
+
+.part2 img {
+  width: 110px;
+}
+
+.card3 img {
+  padding-top: 38px;
+}
+
+.part2 h4 {
+  padding-top: 30px;
+  color: white;
+}
+.part2 p {
+  font-weight: 100;
+  font-size: 15px;
+  padding-top: 18px;
+  color: white;
+}
+
+/* part3 */
+
+.part3 {
+  height: 570px;
+  padding-right: 42px;
+  display: flex;
+  overflow: hidden;
+}
+
+.part3-1 {
+  width: 570px;
+  padding-left: 50px;
+  padding-top: 150px;
+}
+
+.part3-2 img {
+  width: 320px;
+  height: 440px;
+}
+
+#iphone2 {
+  margin-bottom: 130px;
+}
+
+.part3-1 p {
+  color: grey;
+  font-size: 20px;
+  padding: 25px 0px;
+  font-weight: 100;
+}
+
+.plybtn {
+  display: flex;
+}
+
+.gpaly,
+.ipho {
+  height: 58px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* footer */
+
+footer {
+  padding: 20px 35px;
+  background-color: black;
+  height: 880px;
+}
+
+.f1 {
+  height: 377px;
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+}
+
+.f1-1 {
+  width: 250px;
+}
+
+.f1-1 h5 {
+  font-size: 15px;
+  padding: 18px 0px;
+  color: grey;
+}
+.f1-1 p {
+  color: white;
+  padding: 7px 0px;
+  cursor: pointer;
+}
+
+.b2 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0px;
+  align-items: center;
+}
+.b2 img {
+  width: 200px;
+  height: 66px;
+  padding: 0px;
+  border: 2px solid grey;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.web {
+  color: grey;
+  display: inline;
+  padding-top: 20px;
+  font-size: 15px;
+}
+
+.f2 {
+  padding-top: 50px;
+}
+
+.last-foot {
+  display: flex;
+}
+
+.fl {
+  padding-top: 22px;
+  width: 170px;
+  cursor: pointer;
+}
+
+.last-foot h3 {
+  color: white;
+  font-weight: 100;
+  padding-top: 50px;
+  padding-left: 270px;
+}
+
+.social {
+  display: flex;
+  padding-top: 30px;
+  padding-left: 340px;
+}
+
+.social img {
+  width: 30px;
+  height: 30px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.b2 img:hover {
+  transform: scale(1.1);
+  transition: 0.8s;
+}
+
+.social img:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+.f1 p:hover {
+  transform: scale(1.1);
+  transition: 0.6s;
+}
+
+.text-btn2:hover {
+  box-shadow: 2px 2px 10px grey;
+  font-weight: 900;
+}
+
+.find {
+  position: absolute;
+  top: 327px;
+  right: 765px;
+}
